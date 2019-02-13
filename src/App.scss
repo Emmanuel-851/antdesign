@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+
+
+.content{
+    min-height: 90vh !important;
+    background-color: grey;
+}
+
+.header, .menu, .footer {
+    background-color: #F2AE72 !important;
+}
+
+.ant-menu-item-selected{
+    background-color: #000 !important;
+}
+
+.main-container{
+    min-height: 80vh;
+    width: 90vw;
+    margin:  5vh 5vw;
+    background-color: #fff;
+    border-radius: 10px;
+
+}
+
+.home-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.text-layout{
+    font-size: 4em;
+        font-weight: 700;
+        font-family: 'Shadows Into Light', cursive;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p{
+        color: #fff;
+        margin: 0;
+        font-size: 1.5em;
+    }
+}
